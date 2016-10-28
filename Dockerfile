@@ -2,7 +2,7 @@ FROM docker.io/openshift/base-centos7
 
 
 MAINTAINER MBAH Johnas fortem751@gmail.com
-
+RUN \
 yum -y install java-1.8.0-openjdk java-1.8.0-openjdk-devel && \
 yum clean all && \
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-1.b15.el7_2.x86_64 && \
