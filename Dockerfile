@@ -8,7 +8,7 @@ yum clean all && \
 
 yes "" | alternatives --config java
 
-RUN chwon 1001:1001 /usr/lib
+RUN chown 1001:1001 /usr/lib
 
 USER 1001
 
